@@ -1,0 +1,75 @@
+
+#chat {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(243, 110, 110);
+    display: none;
+
+}
+
+footer {
+    height: 200px;
+    width: auto;
+    text-align: center;
+    background-color: rgb(170, 167, 167);
+}
+
+#history {
+    height: 160px;
+    overflow-y: scroll;
+}
+
+.container>img {
+    width: 5%;
+    height: 5%;
+    
+}
+img{
+    width: 10%;
+    height: 55;
+}
+
+#formulaz {
+    display: none;
+}
+
+
+.container {
+    position: relative;
+    margin-top: 150px
+  }
+  
+  .addbtn2 {
+    position: absolute;
+    top: -40px;
+    right: 20px;
+  }
+  
+  .container>table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .container>table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  table td:nth-child(1) {
+    width: 30%;
+  }
+  
+  table td:nth-child(2) {
+    width: 50%;
+  }
+  
+  table td:nth-child(3) {
+    width: 20%;
+    text-align: center;
+  }
+  
